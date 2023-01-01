@@ -50,6 +50,8 @@ source=("http://www.kernel.org/pub/linux/kernel/v6.x/${_srcname}.tar.xz"
         '3009-arm64-dts-rockchip-Move-Quartz64-A-to-mdio-setup.patch'
         '3010-arm64-dts-rockchip-Add-Quartz64-A-battery-node.patch'
         '3011-board-rock3a-gmac1.patch'                                            # RK356X and associated patches that are still being upstreamed: END Rock 3A; From Armbian: https://github.com/armbian/build/blob/master/patch/kernel/archive/rockchip64-5.19/board-rock3a-gmac1.patch
+        '4001-devicetree-rockchip-soquartz-add-super6c-carrier-boa.patch'          # SOQuartz Super6C; (by Mulliken)
+        '4002-Add-dts-to-rockchip-makefile.patch'
         'config'
         'linux.preset'
         '60-linux.hook'
@@ -86,6 +88,8 @@ md5sums=('8c5dec7e61fbb0e5d40972fe52985024'
          '61ed22ed1254727bd97902ce849d3df4'
          'fa9babdfffadf76454b00fc22593eaba'
          'e8ea5b4f0937c3799a846991a9259b4b'
+         '84907eb86a1c6135b8a396a124604c23'
+         'edf9a5e5fe0641796f4bc9d3c2223909'
          '55aa37794b62452df67a77deccd5952c'
          '86d4a35722b5410e3b29fc92dae15d4b'
          'ce6c81ad1ad1f8b333fd6077d47abdaf'
