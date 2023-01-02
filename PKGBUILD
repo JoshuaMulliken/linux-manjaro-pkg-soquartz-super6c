@@ -118,6 +118,9 @@ prepare() {
   # Assorted rk356x patches
   apply_patches 3
 
+  # Adding super6c support
+  apply_patches 4
+
   # Apply our kernel configuration
   cat "${srcdir}/config" > .config
 
